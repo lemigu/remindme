@@ -24,7 +24,7 @@ alias reminders="remindme list"
 alias ackr="remindme ack"
 ```
 
-And I personally wanted it to always display reminders on my first login of each day. If you'd like this as well, you can add the following to your `.bashrc`/`.zprofile`/etc:
+And I personally wanted it to always display reminders on my first login of each day. If you'd like this as well, you can add the following to your `.bashrc`/`.zshrc`/etc:
 
 ```bash
 LAST_RUN_FILE="$HOME/.reminders_last_timestamp"
