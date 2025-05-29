@@ -4,7 +4,7 @@ Extremely simple reminder system for the CLI.
 ## Installation
 
 ```bash
-go install github.com/lemigu/remindme
+go install github.com/lemigu/remindme@latest
 ```
 
 ## Usage
@@ -24,7 +24,7 @@ alias reminders="remindme list"
 alias ackr="remindme ack"
 ```
 
-And I personally wanted it to always display reminders on my first login of each day. If you'd like this as well, you can add the following to you `.bashrc`:
+And I personally wanted it to always display reminders on my first login of each day. If you'd like this as well, you can add the following to your `.bashrc`/`.zprofile`/etc:
 
 ```bash
 LAST_RUN_FILE="~/.reminders_last_timestamp"
